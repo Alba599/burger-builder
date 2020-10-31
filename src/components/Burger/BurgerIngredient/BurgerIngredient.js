@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import classes from './BurgerIngredient.css';
 import PropTypes from 'prop-types';
-// import BurgerBuilder from '../../../containers/BurgerBuilder/BurgerBuilder';
-// import { PopoverTitle } from 'react-bootstrap';
+
 
 class BurgerIngredient extends Component {
     render() {
@@ -14,7 +13,7 @@ class BurgerIngredient extends Component {
             break;
         case ('bread-top'):
             ingredient = (
-            <div className={classes.BreatTop}>
+            <div className={classes.BreadTop}>
                 <div className={classes.Seeds1}></div>
                 <div className={classes.Seeds2}></div>
             </div>
